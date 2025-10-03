@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+/*===================*/
+.app {
+  background-image: url('../public/frio.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-image 0.4s ease;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.app.warm {
+  background-image: url('../public/calor.jpg');
+}
+
+main {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  min-width: 300px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.location-box .location {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.location-box .date {
+  font-size: 20px;
+}
+
+.weather-box .temp {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.weather-box .weather {
+  font-size: 24px;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+}
