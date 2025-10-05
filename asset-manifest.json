@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/faculdade-clima-app/static/css/main.03347ccf.css",
-    "main.js": "/faculdade-clima-app/static/js/main.f131efb2.js",
-    "static/js/453.57bd657c.chunk.js": "/faculdade-clima-app/static/js/453.57bd657c.chunk.js",
-    "static/media/planeta-terra.jpg": "/faculdade-clima-app/static/media/planeta-terra.e89acdb35d2363dc9a81.jpg",
-    "static/media/frio.jpg": "/faculdade-clima-app/static/media/frio.15edd8561b261d43252b.jpg",
-    "static/media/calor.jpg": "/faculdade-clima-app/static/media/calor.21800742a935e786de69.jpg",
-    "index.html": "/faculdade-clima-app/index.html",
-    "main.03347ccf.css.map": "/faculdade-clima-app/static/css/main.03347ccf.css.map",
-    "main.f131efb2.js.map": "/faculdade-clima-app/static/js/main.f131efb2.js.map",
-    "453.57bd657c.chunk.js.map": "/faculdade-clima-app/static/js/453.57bd657c.chunk.js.map"
+    "main.css": "/faculdade-clima-app-react/static/css/main.cbb988a9.css",
+    "main.js": "/faculdade-clima-app-react/static/js/main.a53b82fa.js",
+    "static/js/453.57bd657c.chunk.js": "/faculdade-clima-app-react/static/js/453.57bd657c.chunk.js",
+    "static/media/planeta-terra.jpg": "/faculdade-clima-app-react/static/media/planeta-terra.e89acdb35d2363dc9a81.jpg",
+    "static/media/frio.jpg": "/faculdade-clima-app-react/static/media/frio.15edd8561b261d43252b.jpg",
+    "static/media/calor.jpg": "/faculdade-clima-app-react/static/media/calor.21800742a935e786de69.jpg",
+    "index.html": "/faculdade-clima-app-react/index.html",
+    "main.cbb988a9.css.map": "/faculdade-clima-app-react/static/css/main.cbb988a9.css.map",
+    "main.a53b82fa.js.map": "/faculdade-clima-app-react/static/js/main.a53b82fa.js.map",
+    "453.57bd657c.chunk.js.map": "/faculdade-clima-app-react/static/js/453.57bd657c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03347ccf.css",
-    "static/js/main.f131efb2.js"
+    "static/css/main.cbb988a9.css",
+    "static/js/main.a53b82fa.js"
   ]
 }
