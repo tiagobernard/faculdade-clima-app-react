@@ -42,7 +42,7 @@
   background-image: url('../public/frio.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,17 +57,18 @@
 
 main {
   text-align: center;
-  background: rgba(0,0,0, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   padding: 20px;
   border-radius: 10px;
   backdrop-filter: blur(10px);
-  min-width: 300px;
+  min-width: 280px;
+  max-width: 90%;
 }
 
 .search-form {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .search-bar {
@@ -76,6 +77,8 @@ main {
   border: none;
   border-radius: 20px 0 0 20px;
   outline: none;
+  flex: 1;
+  box-sizing: border-box;
 }
 
 .search-button {
@@ -85,11 +88,14 @@ main {
   background: #007bff;
   color: white;
   cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .location-box .location {
   font-size: 32px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 .location-box .date {
@@ -127,14 +133,14 @@ main {
   background-size: cover;
   background-position: center;
   background-color: #000;
-   transition: background-image 0.4s ease;
+  transition: background-image 0.4s ease;
 }
 
 .clear-button {
   padding: 10px 15px;
   border: none;
   border-radius: 20px;
-  background: #6c757d; /* Cinza escuro para contraste */
+  background: #6c757d;
   color: white;
   cursor: pointer;
   margin-top: 10px;
@@ -142,5 +148,69 @@ main {
 }
 
 .clear-button:hover {
-  background: #5a6268; /* Cinza mais escuro ao passar o mouse */
+  background: #5a6268;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 15px;
+    max-width: 95%;
+  }
+
+  .search-bar {
+    width: 250px;
+    margin-bottom: 5px;
+    border-radius:20px;
+  }
+
+  .search-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-button {
+    width: 150px;
+    border-radius: 20px;
+  }
+
+  .location-box .location {
+    font-size: 24px;
+  }
+
+  .location-box .date {
+    font-size: 16px;
+  }
+
+  .weather-box .temp {
+    font-size: 36px;
+  }
+
+  .weather-box .weather {
+    font-size: 18px;
+  }
+
+  .weather-icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-bar,
+  .search-button {
+    width: 250px;
+  }
+
+  .weather-box .temp {
+    font-size: 28px;
+  }
+
+  .weather-box .weather {
+    font-size: 14px;
+  }
+
+  .weather-icon {
+    width: 60px;
+    height: 60px;
+  }
 }
